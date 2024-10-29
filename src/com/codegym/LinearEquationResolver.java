@@ -17,12 +17,13 @@ public class LinearEquationResolver {
 
         if (a != 0) {
             double solution = -b / a;
-            System.out.printf("The solution is: %f!", solution);
+            System.out.printf("The solution is: %f", solution);
+            System.out.println();
         } else {
             if (b == 0) {
-                System.out.print("The solution is all x!");
+                System.out.println("The solution is all x!");
             } else {
-                System.out.print("No solution!");
+                System.out.println("No solution!");
             }
         }
     }
